@@ -1,0 +1,22 @@
+{
+  "baseUrl": "http://localhost:4200",
+  "testFiles": "**/*.{feature,features}",
+  
+
+   integrationFolder": "cypress/integration",
+  "supportFile": "cypress/support/index.ts",
+  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "pluginsFile": "cypress/plugins/index.js",
+  "fixturesFolder": "cypress/fixtures",
+
+   "defaultCommandTimeout": 50000,
+  "pageLoadTimeout" : 180000,
+  "experimentalSourceRewriting": false,
+  "watchForFileChanges" :  false,
+  "execTimeout" : 60000,
+  "retries" : 2,
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 0,
+  "modifyObstructiveCode" : false
+}

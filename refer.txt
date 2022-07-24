@@ -1,0 +1,6 @@
+git clone https://github.com/SinghDigamber/angular-material-login-template.git
+
+https://medium.com/@talktokapildev/angular-e2e-with-cypress-and-cucumber-d689e123d469
+
+https://testersdock.com/cypress-10-upgrade/
+https://github.com/BirgitPohl/cypress-cucumber-setup

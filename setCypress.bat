@@ -1,0 +1,1 @@
+set PATH="C:\briefthings\OsiaBasic\angular-material-login-template\node_modules\.bin\";%PATH%

@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 3,
+            "name": "I login",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.loginWith is not a function\n    at Context.eval (http://localhost:50060/__cypress/tests?p=cypress\\integration\\cucumber\\login.feature:23:8)\n    at Context.resolveAndRunStepDefinition (http://localhost:50060/__cypress/tests?p=cypress\\integration\\cucumber\\login.feature:10987:29)\n    at Context.eval (http://localhost:50060/__cypress/tests?p=cypress\\integration\\cucumber\\login.feature:10308:35)\nFrom previous event:\n    at Context.thenFn (http://localhost:50060/__cypress/runner/cypress_runner.js:153480:63)\n    at Context.then (http://localhost:50060/__cypress/runner/cypress_runner.js:153932:21)\n    at Context.<anonymous> (http://localhost:50060/__cypress/runner/cypress_runner.js:171662:19)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:170360:15\nFrom previous event:\n    at CommandQueue.runCommand (http://localhost:50060/__cypress/runner/cypress_runner.js:170339:17)\n    at next (http://localhost:50060/__cypress/runner/cypress_runner.js:170493:19)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:170522:16\nFrom previous event:\n    at next (http://localhost:50060/__cypress/runner/cypress_runner.js:170493:39)\nFrom previous event:\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:185534:77\nFrom previous event:\n    at CommandQueue.run (http://localhost:50060/__cypress/runner/cypress_runner.js:185529:21)\n    at CommandQueue.run (http://localhost:50060/__cypress/runner/cypress_runner.js:170556:15)\n    at cy.<computed> [as then] (http://localhost:50060/__cypress/runner/cypress_runner.js:171701:18)\n    at runnable.fn (http://localhost:50060/__cypress/runner/cypress_runner.js:171929:19)\n    at callFn (http://localhost:50060/__cypress/runner/cypress_runner.js:122312:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (http://localhost:50060/__cypress/runner/cypress_runner.js:122299:7)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:179077:30\nFrom previous event:\n    at Object.onRunnableRun (http://localhost:50060/__cypress/runner/cypress_runner.js:179062:19)\n    at $Cypress.action (http://localhost:50060/__cypress/runner/cypress_runner.js:168001:28)\n    at Runnable.run (http://localhost:50060/__cypress/runner/cypress_runner.js:176713:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (http://localhost:50060/__cypress/runner/cypress_runner.js:122971:10)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:123097:12\n    at next (http://localhost:50060/__cypress/runner/cypress_runner.js:122880:14)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:122890:7\n    at next (http://localhost:50060/__cypress/runner/cypress_runner.js:122792:14)\n    at Hook.<anonymous> (http://localhost:50060/__cypress/runner/cypress_runner.js:122853:7)\n    at next (http://localhost:50060/__cypress/runner/cypress_runner.js:178972:24)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:179001:13\nFrom previous event:\n    at onNext (http://localhost:50060/__cypress/runner/cypress_runner.js:178998:59)\n    at done (http://localhost:50060/__cypress/runner/cypress_runner.js:122252:5)\n    at callFn (http://localhost:50060/__cypress/runner/cypress_runner.js:122335:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (http://localhost:50060/__cypress/runner/cypress_runner.js:122299:7)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:179077:30\nFrom previous event:\n    at Object.onRunnableRun (http://localhost:50060/__cypress/runner/cypress_runner.js:179062:19)\n    at $Cypress.action (http://localhost:50060/__cypress/runner/cypress_runner.js:168001:28)\n    at Runnable.run (http://localhost:50060/__cypress/runner/cypress_runner.js:176713:13)\n    at next (http://localhost:50060/__cypress/runner/cypress_runner.js:122814:10)\n    at http://localhost:50060/__cypress/runner/cypress_runner.js:122858:5\n    at timeslice (http://localhost:50060/__cypress/runner/cypress_runner.js:116784:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "the url is /",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I'm logged",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
